@@ -41,6 +41,6 @@ def print_solution(board):
         print(' '.join(['Q' if x == 1 else '.' for x in row]))
 
 
-n = int(input("Enter the size of board"))
-# n = 8  # Change this to the desired board size
+# n = int(input("Enter the size of board"))
+n = 8  # Change this to the desired board size
 solve_n_queens(n)
